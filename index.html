@@ -386,10 +386,6 @@
         
         // Configurar event listeners después de que el DOM esté cargado
         document.addEventListener('DOMContentLoaded', function() {
-            // Calcular automáticamente cuando se cambian los valores
-            document.getElementById('costo').addEventListener('input', calcularPrecio);
-            document.getElementById('metros').addEventListener('input', calcularPrecio);
-            
             // Botón de calcular
             document.getElementById('calcular-btn').addEventListener('click', calcularPrecio);
             
